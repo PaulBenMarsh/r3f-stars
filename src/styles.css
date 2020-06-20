@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "pxplus_ibm_biosregular";
+	src:
+		url('./fonts/pxplus_ibm_bios.woff2') format('woff2'),
+		url('./fonts/pxplus_ibm_bios.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: fixed;
+    overflow: hidden;
+}
+  
+body {
+    overscroll-behavior-y: none;
+    color: black;
+}
+  
+.canvas {
+    position: absolute;
+    top: 0;
+}
+  
+.scroll-container {
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.html-content {
+    font-family: "pxplus_ibm_biosregular";
+	font-smooth: never;
+    -webkit-font-smoothing: none;
+	display: block;
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+}

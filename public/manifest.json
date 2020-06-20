@@ -1,0 +1,15 @@
+{
+  "short_name": "paulmar.sh",
+  "name": "paulmar.sh",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

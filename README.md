@@ -1,6 +1,6 @@
 # react-stars
 
-A 3D scene composed of 2D billboard sprites using ```react```, the ```THREE.js``` reconciler ```react-three-fiber``` with ```drei``` and ```react-spring```.
+A 3D scene composed of 2D billboard sprites using ```react```, ```react-spring``` and the ```THREE.js``` reconciler ```react-three-fiber``` with ```drei```.
 
 Sandbox: https://codesandbox.io/s/github/PaulBenMarsh/react-stars
 

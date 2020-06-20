@@ -5,5 +5,5 @@ A 3D scene composed of 2D billboard sprites using ```react```, ```react-spring``
 Sandbox: https://codesandbox.io/s/github/PaulBenMarsh/react-stars
 
 <p align="center">
-![](https://github.com/PaulBenMarsh/react-stars/blob/master/screenshots/loop.gif?raw=true)
+<img src="https://github.com/PaulBenMarsh/react-stars/blob/master/screenshots/loop.gif?raw=true">
 </p>

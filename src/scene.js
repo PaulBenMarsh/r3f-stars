@@ -92,7 +92,7 @@ function Entities() {
         {
             config.entities.map((entity, _) => (
                 Array(entity.count).fill(entity.props).map((props, i) => (
-                    <Entity key={ entity.name + "_" + i } props={ props } />
+                    <Entity key={ `${entity.name}_${i}` } props={ props } />
                 ))
             ))
         }
